@@ -11,6 +11,7 @@ class PostSerializer(serializers.ModelSerializer):
         "body",
         "created_at",
         )
+        
         model = Post
 
 class UserSerializer(serializers.ModelSerializer): # new
